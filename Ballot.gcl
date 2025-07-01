@@ -5,10 +5,10 @@ contract Ballot {
         uint64 totalVotedWeight;
     }
 
-    struct BallotResult {
-       string aa;
-       uint bb;
-    }
+    // struct BallotResult {
+    //    string aa;
+    //    uint bb;
+    // }
 
     @global address controller;
 	@global uint32 current_case;
